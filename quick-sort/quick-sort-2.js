@@ -13,7 +13,7 @@ function quickSortHelper(arr, left, right) {
     }
 
     const index = partition(arr, left, right)
-  //  console.log(arr)
+  //   console.log(arr)
     console.log('----------------')
     if (left < index - 1) {
         quickSortHelper(arr, left, index-1)
