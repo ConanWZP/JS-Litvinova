@@ -3,7 +3,7 @@ const deepMerge = require("./deepMerge");
 const {expect} = require("chai");
 
 
-module.exports =function deepCompare(obj1, obj2) {
+module.exports = function deepCompare(obj1, obj2) {
     if (obj1 === obj2) {
         return true
     }
